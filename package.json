@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "npm run build:sanity && npm run build:web",
+    "build:web": "next build",
+    "start:web": "next start",
+    "build:sanity": "cd studio && npx sanity build ../public/studio -y && cd ..",
+    "start:sanity": "cp .env.local ./studio/.env.development && cd studio && sanity start",
+    "postinstall": "lerna bootstrap"
+  },
+  "dependencies": {
+    "lerna": "^4.0.0",
+    "next": "latest",
+    "next-sanity": "^0.4.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-json-pretty": "^2.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
+  }
+}
