@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import JSONPretty from 'react-json-pretty'
-import { getClient } from '../utils/sanity'
+// import { getClient } from '../utils/sanity'
 
 export default function Home() {
   return (
@@ -16,8 +16,6 @@ export default function Home() {
         </h1>
 
         <br />
-
-        {/* <JSONPretty style={{maxWidth: "100ch", overflowX: "scroll", boxShadow: "0 0 5px rgba(0,0,0,.3"}} id="json-pretty" data={data}></JSONPretty> */}
 
         <p className="mt-3 text-2xl">
           Get started by editing{' '}
@@ -78,14 +76,3 @@ export default function Home() {
     </div>
   )
 }
-
-// export async function getStaticProps() {
-//   const data = await getClient(true).fetch(`*[]`);
-
-//   return {
-//     props: {
-//       data: { data }
-//     },
-//     revalidate: 1
-//   }
-// }
