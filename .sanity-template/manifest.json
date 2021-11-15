@@ -4,7 +4,7 @@
 	"description": "Minimal starter for Sanity with NextJS and Tailwind CSS",
 	"previewMedia": {
 		"type": "image",
-		"src": "assets/frontend.png",
+		"src": ".sanity-template/assets/frontend.png",
 		"alt": "Minimal starter for Sanity with NextJS and Tailwind CSS"
 	},
 	"technologies": [
