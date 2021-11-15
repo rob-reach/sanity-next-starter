@@ -5,7 +5,7 @@
 	"previewMedia": {
 		"type": "image",
 		"src": ".sanity-template/assets/frontend.png",
-		"alt": "Minimal starter for Sanity with NextJS and Tailwind CSS"
+		"alt": "Next.js frontend with Sanity data displaying"
 	},
 	"technologies": [
 		{
