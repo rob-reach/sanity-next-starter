@@ -20,6 +20,8 @@ const InitialConsent = function() {
          * Function to set initial tag manager consent
          */
         setInitialConsent()
+
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     return null
