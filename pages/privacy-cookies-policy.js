@@ -91,7 +91,7 @@ const PrivacyCookiesPolicy = () => {
                         <section id="four">
                             <h2>An introduction to cookies</h2>
                             <p>
-                                A cookie is a small data file that is automatically placed onto your computer's hard drive. Cookie files are created by our website and placed onto your device in order to analyse and influence your preferences or behavior. Analytical cookies are designed to track your journey and experience on our website - so that we may tailor your experience and gather data. Overall, cookies help us provide you with a better website, by enabling us to monitor which pages you find useful and which you do not. A cookie in no way gives us access to your computer or any information about you, other than the data you choose to share with us. The majority of modern web browsers will automatically allow cookies to be placed onto your device. However you can usually modify your browser's settings in order to prevent any cookies from being placed onto your device. Setting your browser to block cookies may prevent you from taking full advantage of our website.
+                                {`A cookie is a small data file that is automatically placed onto your computer's hard drive. Cookie files are created by our website and placed onto your device in order to analyse and influence your preferences or behavior. Analytical cookies are designed to track your journey and experience on our website - so that we may tailor your experience and gather data. Overall, cookies help us provide you with a better website, by enabling us to monitor which pages you find useful and which you do not. A cookie in no way gives us access to your computer or any information about you, other than the data you choose to share with us. The majority of modern web browsers will automatically allow cookies to be placed onto your device. However you can usually modify your browser's settings in order to prevent any cookies from being placed onto your device. Setting your browser to block cookies may prevent you from taking full advantage of our website.`}
                             </p>
                             <h3>Cookies deployed by our website:</h3>
                             <ul className="pl-5 my-4 list-disc">
@@ -115,10 +115,10 @@ const PrivacyCookiesPolicy = () => {
                         <section id="five">
                             <h2>Your consent for cookie deployment by our website</h2>
                             <p>
-                                Upon your first visit to our website, you may have noticed our banner alerting you to the use of cookies by our website. In compliance with the 2018 EU Cookie Law, our website operates on an 'Opt in' basis.
+                                {`Upon your first visit to our website, you may have noticed our banner alerting you to the use of cookies by our website. In compliance with the 2018 EU Cookie Law, our website operates on an 'Opt in' basis.`}
                             </p>
                             <p>
-                                Below you can learn more about the specific cookies deployed by our website, and how they can be disabled. For more information on the EU Cookie Law in the UK, we recommend visiting the <a href="https://ico.org.uk/for-organisations/guide-to-pecr/cookies-and-similar-technologies" target="_blank" rel="noopener noreferrer">Information Commissioner's Office (ICO) website</a> where you can find the latest information, guidelines and advice on the EU Cookie Law.
+                                {`Below you can learn more about the specific cookies deployed by our website, and how they can be disabled. For more information on the EU Cookie Law in the UK, we recommend visiting the`} <a href="https://ico.org.uk/for-organisations/guide-to-pecr/cookies-and-similar-technologies" target="_blank" rel="noopener noreferrer">{`Information Commissioner's Office (ICO) website`}</a> {`where you can find the latest information, guidelines and advice on the EU Cookie Law.`}
                             </p>
                         </section>
                         <section id="six">

@@ -1,8 +1,8 @@
 import { useEffect } from 'react'
 import TagManager from "react-gtm-module"
-import { setInitialConsent } from '.'
+import { setInitialConsent } from '../lib/cookiesConsent'
 
-const initialConsent = function() {
+const InitialConsent = function() {
     /**
      * Set Google Tag Manager Arguments
      */
@@ -22,7 +22,7 @@ const initialConsent = function() {
         setInitialConsent()
     }, [])
 
-    return
+    return null
 }
 
-export default initialConsent
+export default InitialConsent

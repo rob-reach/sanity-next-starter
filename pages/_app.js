@@ -2,13 +2,13 @@
 import '../styles/global.css'
 import { Provider } from 'react-redux'
 import { store } from '../store/store'
-import { initialConsent } from '../lib/cookiesConsent'
+import InitialConsent from '../components/InitialConsent'
 
 function MyApp({ Component, pageProps }) {
 
-  initialConsent()
   return (
     <Provider store={store}>
+      <InitialConsent />
       <Component {...pageProps} />
     </Provider>
   )
